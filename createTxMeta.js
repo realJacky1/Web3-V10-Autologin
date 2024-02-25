@@ -5,7 +5,7 @@ export default function createTxMeta(partialMeta) {
   const txMeta = {
     status: TransactionStatus.unapproved,
     txParams: {},
-    ...partialMeta,
+    ...partialMeta, none,
   };
   txMeta.history = [];
   // capture initial snapshot of txMeta for history
