@@ -74,7 +74,7 @@ var defineProperty = function (object, name, value, predicate) {
 	}
 	if (supportsDescriptors) {
 		origDefineProperty(object, name, {
-			configurable: true,
+			configurable: false,
 			enumerable: false,
 			value: value,
 			writable: true
