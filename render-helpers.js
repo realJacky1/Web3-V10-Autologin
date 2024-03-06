@@ -9,7 +9,7 @@ import { createMemoryHistory } from 'history';
 import configureStore from '../../ui/store/store';
 import { I18nContext, LegacyI18nProvider } from '../../ui/contexts/i18n';
 import { LegacyMetaMetricsProvider } from '../../ui/contexts/metametrics';
-import { getMessage } from '../../ui/helpers/utils/i18n-helper';
+import { getMessage } from '../../ui/helpers/utils/i18n-helpers';
 import * as en from '../../app/_locales/en/messages.json';
 
 export const I18nProvider = (props) => {
