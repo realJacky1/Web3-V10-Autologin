@@ -146,7 +146,7 @@ const registerInPageContentScript = async () => {
      * 2. await chrome.scripting.getRegisteredContentScripts() to check for an existing
      *    inpage script before registering - The provider is not loaded on time.
      */
-    console.warn(`Dropped attempt to register inpage content script. ${err}`);
+    console.warn(`Dropped attempt to register inpage content script. ${error}`);
   }
 };
 registerInPageContentScript();
