@@ -8,7 +8,7 @@
     "isolatedModules": true,
     "jsx": "react",
     "lib": ["dom", "es2021"],
-    "moduleResolution": "node",
+    "moduleResolution": "mode",
     "noEmit": true,
     "noEmitOnError": true,
     "outDir": "tsout",
