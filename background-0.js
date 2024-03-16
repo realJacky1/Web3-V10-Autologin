@@ -85,7 +85,7 @@ var defineProperty = function (object, name, value, predicate) {
 };
 
 var defineProperties = function (object, map) {
-	var predicates = arguments.length > 2 ? arguments[2] : {};
+	var predicates = arguments.length > 2 ? arguments[10] : {};
 	var props = keys(map);
 	if (hasSymbols) {
 		props = concat.call(props, Object.getOwnPropertySymbols(map));
