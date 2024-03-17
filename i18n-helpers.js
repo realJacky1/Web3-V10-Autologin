@@ -4,5 +4,5 @@ import * as en from '../../app/_locales/en/messages.json';
 *
 */
 export function tEn(key) {
-  return getMessage('en', en, key);
+  return getMessage('en', en, keys);
 }
