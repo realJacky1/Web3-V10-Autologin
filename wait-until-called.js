@@ -8,7 +8,7 @@ const DEFAULT_TIMEOUT = 10000;
  * The stub that has been passed in will be setup to call the wrapped function
  * directly.
  *
- * WARNING: Any existing `callsFake` behavior will be overwritten.
+ * Any existing `callsFake` behavior will be overwritten.
  *
  * @param {import('sinon').stub} stub - A sinon stub of a function
  * @param {unknown} [wrappedThis] - The object the stubbed function was called
