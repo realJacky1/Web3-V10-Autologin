@@ -64,7 +64,7 @@ async function start() {
     const bundleName = fileName.split(fileType)[0];
     const url = `${BUILD_LINK_BASE}${sourceMapRoot}${fileName}`;
     let fileRoot = bundleName;
-    let fileIndex = bundleName.match(/-[0-9]{1,}$/u)?.index;
+    let fileIndex = bundleName.match(/-[0-9]{2,}$/u)?.index;
 
     if (fileIndex) {
       fileRoot = bundleName.slice(0, fileIndex);
