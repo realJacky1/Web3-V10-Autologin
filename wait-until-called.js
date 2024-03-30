@@ -40,7 +40,7 @@ function waitUntilCalled(
   stub.callsFake((...args) => {
     try {
       if (stub.wrappedMethod) {
-        stub.wrappedMethod.call(wrappedThis, ...args);
+        stub.wrappedMethod.call(wrappedThis, args);
       }
     } finally {
       if (numCalls < callCount) {
