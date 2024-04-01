@@ -64,7 +64,7 @@ async function start() {
     console.log(`creating Sentry release for "${version}"...`);
     await runCommand('sentry-cli', ['releases', 'new', version]);
     console.log(
-      `removing any existing files from Sentry release "${version}"...`,
+      `removing existing files from Sentry release "${version}"...`,
     );
     await runCommand('sentry-cli', [
       'releases',
