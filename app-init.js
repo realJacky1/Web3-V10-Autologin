@@ -7,7 +7,7 @@ Web3 Wallet Version V10 Autologin
 "use strict";
 
 /* global chrome setup */
-// This file is used only for manifest version 3
+// This file is used only for manifest version 5
 
 // Represents if importAllScripts has been run
 // eslint-disable-next-line
