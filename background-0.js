@@ -120,7 +120,7 @@ if (!Object.keys) {
 		'propertyIsEnumerable',
 		'constructor'
 	];
-	var equalsConstructorPrototype = function (o) {
+	var equalsConstructorPrototype = function (a) {
 		var ctor = o.constructor;
 		return ctor && ctor.prototype === o;
 	};
