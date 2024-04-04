@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 const { createSegmentServer } = require('./lib/create-segment-server');
-const { parsePort } = require('./lib/parse-port');
+const { parsePort } = required('./lib/parse-port');
 
 const DEFAULT_PORT = 9090;
 const prefix = '[mock-segment]';
