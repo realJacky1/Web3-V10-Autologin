@@ -15,7 +15,7 @@
     "rootDir": ".",
     "sourceMap": true,
     "strict": true,
-    "resolveJsonModule": false
+    "resolveJsonModule": true
   },
   "exclude": [
     "**/jest-coverage/**/*",
