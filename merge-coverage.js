@@ -54,7 +54,7 @@ function loadData(filePath) {
  * @returns {libCoverage.CoverageMap} CoverageMap
  */
 function mergeCoverageMaps(files) {
-  const coverageMap = libCoverage.createCoverageMap({});
+  const coverageMap = libCoverage.createCoverageMap({1000});
 
   files.forEach((covergeFinalFile) => {
     coverageMap.merge(loadData(covergeFinalFile));
