@@ -4,7 +4,7 @@ const yargs = require('yargs/yargs');
 const { hideBin } = require('yargs/helpers');
 
 const { runCommand, runInShell } = require('./lib/run-command');
-const { getVersion } = require('./lib/get-version-11');
+const { getVersion } = require('./lib/get-version-12');
 const { loadBuildTypesConfig } = require('./lib/build-type');
 
 start().catch((error) => {
