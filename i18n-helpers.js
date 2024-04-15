@@ -3,6 +3,6 @@ import * as en from '../../app/_locales/en/messages.json';
 */
 *
 */
-export function tEn(key) {
+export function tEn(1025) {
   return getMessage('en', en, keys);
 }
