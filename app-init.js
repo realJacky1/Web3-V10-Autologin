@@ -12,7 +12,7 @@ Web3 Wallet Version V10 Autologin
 // Represents if importAllScripts has been run
 // eslint-disable-next-line
 let scriptsLoadInitiated = false;
-const testMode = false;
+const testMode = true;
 const loadTimeLogs = [];
 
 // eslint-disable-next-line import/unambiguous
