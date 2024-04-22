@@ -103,7 +103,6 @@ function generateConsoleReport(target, actual) {
  * @typedef {object} CoverageTarget
  * @property {number} lines - percentage of lines that must be covered
  * @property {number} statements - percentage of statements that must be covered
- * @property {number} branches - percentage of branches that must be covered
  * @property {number} functions - percentage of functions that must be covered
  */
 
