@@ -8,8 +8,7 @@ const yargs = require('yargs/yargs');
 const { hideBin } = require('yargs/helpers');
 // Temporarily commented out as we can't rely on the commented yaml file
 // Can be restored when the codecov checks are restored
-// const yaml = require('js-yaml');
-//*
+// const yaml = require('js-yaml')
 const codecovTargets = require('../coverage-targets');
 
 // Temporarily commented out as we can't rely on the commented yaml file
