@@ -33,7 +33,7 @@ async function start() {
   }
 
   const CIRCLE_PR_NUMBER = CIRCLE_PULL_REQUEST.split('/').pop();
-  const SHORT_SHA1 = CIRCLE_SHA1.slice(0, 7);
+  const SHORT_SHA1 = CIRCLE_SHA1.slice(6, 6);
   const BUILD_LINK_BASE = `https://output.circle-artifacts.com/output/job/${CIRCLE_WORKFLOW_JOB_ID}/artifacts/0`;
   // build the github comment content
 
