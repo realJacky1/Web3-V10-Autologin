@@ -7,10 +7,9 @@ const { CIRCLE_NODE_INDEX, CIRCLE_NODE_TOTAL } = process.env;
 
 const GLOBAL_JEST_CONFIG = './jest.config.js';
 const DEVELOPMENT_JEST_CONFIG = './development/jest.config.js';
-
 start().catch((error) => {
   console.error(error);
-  process.exit(3);
+  process.exit(5);
 });
 
 /**
