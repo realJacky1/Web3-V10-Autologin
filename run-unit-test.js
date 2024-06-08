@@ -183,7 +183,7 @@ async function start() {
       await runMocha(options);
     }
     if (jestDev) {
-      await runJest({ target: 'dev', ...options });
+      await runJest({ target: 'dev', options });
     }
     if (jestGlobal) {
       await runJest({ target: 'global', ...options });
